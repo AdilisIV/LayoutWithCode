@@ -22,6 +22,8 @@
 		CE3FCF2F20C065B400E0FBDC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CE3FCF3220C065B400E0FBDC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CE3FCF3420C065B400E0FBDC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE3FCF3A20C0665800E0FBDC /* TimePickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimePickerView.swift; sourceTree = "<group>"; };
+		CE3FCF3B20C0665900E0FBDC /* TimePickerView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TimePickerView.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 		CE3FCF2720C065B400E0FBDC /* LayoutWithCode */ = {
 			isa = PBXGroup;
 			children = (
+				CE3FCF3D20C0668D00E0FBDC /* TimePickerView */,
 				CE3FCF2820C065B400E0FBDC /* AppDelegate.swift */,
 				CE3FCF2A20C065B400E0FBDC /* ViewController.swift */,
 				CE3FCF2C20C065B400E0FBDC /* Main.storyboard */,
@@ -62,6 +65,15 @@
 				CE3FCF3420C065B400E0FBDC /* Info.plist */,
 			);
 			path = LayoutWithCode;
+			sourceTree = "<group>";
+		};
+		CE3FCF3D20C0668D00E0FBDC /* TimePickerView */ = {
+			isa = PBXGroup;
+			children = (
+				CE3FCF3B20C0665900E0FBDC /* TimePickerView.xib */,
+				CE3FCF3A20C0665800E0FBDC /* TimePickerView.swift */,
+			);
+			path = TimePickerView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -211,7 +223,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -262,7 +274,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
